@@ -24,7 +24,7 @@ body {
 
 .button {
     padding: 12px 52px;
-    background-color: #6A17AB;
+    background-color: #9D3FE7;
     border: none;
     border-radius: 4px;
     font-family: 'Poppins';
@@ -38,6 +38,10 @@ body {
 
 .button:hover {
     background: #AE60EB;
+}
+
+.button:active {
+    background: #6A17AB;
 }
 
 .onboardingButton {
@@ -77,6 +81,11 @@ body {
 .loginGoogle:hover {
     color: #AE60EB;
     border: 1px solid #AE60EB;
+}
+
+.loginGoogle:active {
+    color: #6A17AB;
+    border: 1px solid #6A17AB;
 }
 
 /* .input {
