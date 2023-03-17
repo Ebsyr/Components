@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    background: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.components {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 35px;
+    justify-items: center;
+}
+
+.button {
+    padding: 12px 52px;
+    background-color: #6A17AB;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #E5E0EB;
+    transition: all linear 0.1s;
+}
+
+.button:hover {
+    background: #AE60EB;
+}
+
+.onboardingButton {
+    width: 187px;
+    height: 48px;
+}
+
+.signup {
+    width: 330px;
+    height: 48px;
+}
+
+.login {
+    width: 330px;
+    height: 48px;
+}
+
+.loginGoogle {
+    padding: 12px 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 48px;
+    border: 1px solid #9D3FE7;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #9D3FE7;
+    transition: all linear 0.1s;
+    gap: 0 15px;
+}
+
+.loginGoogle:hover {
+    color: #AE60EB;
+    border: 1px solid #AE60EB;
+}
+
+/* .input {
+    padding: 12px;
+    width: 330px;
+    background: #FFFFFF;
+    border: 1px solid #E5E0EB;
+    border-radius: 2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #1A141F;
+    transition: all linear 0.1s;
+}
+
+.input:focus {
+    border: 1px solid #9D3FE7;
+}
+
+.input::-webkit-input-placeholder {
+    color: #ABA7AF;
+} */
+
+.input {
+    padding: 12px;
+    width: 330px;
+    background: #FFFFFF;
+    border: 1px solid #E5E0EB;
+    border-radius: 2px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #141f16;
+    transition: all linear 0.1s;
+    position: relative;
+}
+
+.inputDiv {
+    position: relative;
+}
+
+.input:focus {
+    border: 1px solid #9D3FE7;
+}
+
+.input:focus ~ .labelForInput,
+.input:valid ~ .labelForInput {
+    top: -10px;
+    font-size: 12px;
+}
+
+.labelForInput {
+    color: #ABA7AF;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    padding: 0 3px;
+    text-align: center;
+    transition: all linear 0.1s;
+    cursor: default;
+    background-color: #FFFFFF;
+}
+
+.gostudy {
+    width: 330px;
+    height: 48px;
+}
